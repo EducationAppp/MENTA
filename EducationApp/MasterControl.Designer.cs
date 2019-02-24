@@ -41,6 +41,7 @@
             this.ItemNameKanatxt = new System.Windows.Forms.TextBox();
             this.Price = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.DisplayBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.MasterGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -159,10 +160,21 @@
             this.textBox1.Size = new System.Drawing.Size(294, 40);
             this.textBox1.TabIndex = 12;
             // 
+            // DisplayBtn
+            // 
+            this.DisplayBtn.Location = new System.Drawing.Point(678, 729);
+            this.DisplayBtn.Name = "DisplayBtn";
+            this.DisplayBtn.Size = new System.Drawing.Size(120, 49);
+            this.DisplayBtn.TabIndex = 13;
+            this.DisplayBtn.Text = "表示";
+            this.DisplayBtn.UseVisualStyleBackColor = true;
+            this.DisplayBtn.Click += new System.EventHandler(this.DisplayBtn_Click);
+            // 
             // MasterControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.DisplayBtn);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.Price);
             this.Controls.Add(this.ItemNameKanatxt);
@@ -199,5 +211,6 @@
         private System.Windows.Forms.TextBox ItemNameKanatxt;
         private System.Windows.Forms.Label Price;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button DisplayBtn;
     }
 }

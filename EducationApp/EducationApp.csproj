@@ -45,11 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Class1.cs" />
+    <Compile Include="Parent.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Parent.Designer.cs">
+      <DependentUpon>Parent.cs</DependentUpon>
     </Compile>
     <Compile Include="MasterControl.cs">
       <SubType>UserControl</SubType>
@@ -65,8 +66,8 @@
     <Compile Include="SalesControl.Designer.cs">
       <DependentUpon>SalesControl.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Parent.resx">
+      <DependentUpon>Parent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MasterControl.resx">
       <DependentUpon>MasterControl.cs</DependentUpon>

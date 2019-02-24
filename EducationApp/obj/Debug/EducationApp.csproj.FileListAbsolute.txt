@@ -14,7 +14,6 @@ C:\【自己学習】\EducationApp\EducationApp\bin\Debug\EducationApp.exe.confi
 C:\【自己学習】\EducationApp\EducationApp\bin\Debug\EducationApp.exe
 C:\【自己学習】\EducationApp\EducationApp\bin\Debug\EducationApp.pdb
 C:\【自己学習】\EducationApp\EducationApp\obj\Debug\EducationApp.csprojAssemblyReference.cache
-C:\【自己学習】\EducationApp\EducationApp\obj\Debug\EducationApp.Form1.resources
 C:\【自己学習】\EducationApp\EducationApp\obj\Debug\EducationApp.MasterControl.resources
 C:\【自己学習】\EducationApp\EducationApp\obj\Debug\EducationApp.Properties.Resources.resources
 C:\【自己学習】\EducationApp\EducationApp\obj\Debug\EducationApp.SalesControl.resources
@@ -22,3 +21,4 @@ C:\【自己学習】\EducationApp\EducationApp\obj\Debug\EducationApp.csproj.Ge
 C:\【自己学習】\EducationApp\EducationApp\obj\Debug\EducationApp.csproj.CoreCompileInputs.cache
 C:\【自己学習】\EducationApp\EducationApp\obj\Debug\EducationApp.exe
 C:\【自己学習】\EducationApp\EducationApp\obj\Debug\EducationApp.pdb
+C:\【自己学習】\EducationApp\EducationApp\obj\Debug\EducationApp.Parent.resources

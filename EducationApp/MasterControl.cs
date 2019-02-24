@@ -19,8 +19,17 @@ namespace EducationApp
 
         private void SwitchBtn_Click(object sender, EventArgs e)
         {
-            Form1.mente.Visible = false;
-            Form1.sale.Visible = true;
+
+            EducationApp.Parent.mente.Visible = false;
+            EducationApp.Parent.sale.Visible = true;
+
+            //new Parent.ChengeForm();
+
+        }
+
+        private void DisplayBtn_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

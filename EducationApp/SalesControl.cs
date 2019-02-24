@@ -19,8 +19,8 @@ namespace EducationApp
 
         private void SwitchBtn_Click(object sender, EventArgs e)
         {
-            Form1.mente.Visible = true;
-            Form1.sale.Visible = false;
+            EducationApp.Parent.mente.Visible = true;
+            EducationApp.Parent.sale.Visible = false;
         }
     }
 }

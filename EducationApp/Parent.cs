@@ -10,12 +10,12 @@ using System.Windows.Forms;
 
 namespace EducationApp
 {
-    public partial class Form1 : Form
+    public partial class Parent : Form
     {
         public static SalesControl sale;
         public static MasterControl mente;
 
-        public Form1()
+        public Parent()
         {
             InitializeComponent();
             //static変数に格納
@@ -30,6 +30,12 @@ namespace EducationApp
             mente.Visible = true;
             sale.Visible = false;
         }
+
+        public void chengeFlag(String flag) {
+
+
+        }
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
